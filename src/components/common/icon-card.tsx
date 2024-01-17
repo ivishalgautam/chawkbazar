@@ -21,16 +21,17 @@ const IconCard: React.FC<Props> = ({
   const { name, icon, tags, productCount } = item ?? {};
   const { t } = useTranslation('common');
 
+
   return (
     <Link
       href={href}
-      className={cn('group flex justify-center  rounded-lg', {
+      className={cn('group flex justify-center rounded-lg', {
         'flex-col h-28 sm:h-[8.5rem] md:h-40 xl:h-[11.5rem] 2xl:h-44 3xl:h-60 bg-gray-200':
           variant === 'default',
         'flex-col px-6 lg:px-8 pt-7 lg:pt-10 pb-5 lg:pb-8 bg-gray-200':
           variant === 'modern',
         'flex-col items-center': variant === 'circle',
-        'gap-[25px] xl:gap-[30px] 2xl:gap-[40px] 3xl:gap-[50px] px-3 lg:px-4 py-5 lg:py-8 bg-gray-200':
+        'gap-2 flex-col':
           variant === 'list',
       })}
     >
@@ -53,7 +54,7 @@ const IconCard: React.FC<Props> = ({
             'mb-4 sm:mb-6 w-2/4': variant === 'modern',
             'transform scale-[0.6] lg:scale-75 2xl:scale-85 3xl:scale-90':
               variant === 'circle',
-            'mx-auto w-[40%] lg:w-2/4': variant === 'list',
+            'mx-auto w-28 rounded-full': variant === 'list',
           })}
         />
         {effectActive === true && variant === 'circle' && (
@@ -77,12 +78,13 @@ const IconCard: React.FC<Props> = ({
             'absolute text-center bottom-4 sm:bottom-5 md:bottom-6 xl:bottom-8 inset-x-0':
               variant === 'default',
             'mb-1': variant === 'modern',
+            "text-center":variant === "list"
           })}
         >
           {name}
         </Text>
 
-        {(variant === 'modern' || variant === 'list') && (
+        {/* {(variant === 'modern' || variant === 'list') && (
           <Text
             className={cn('pb-0.5 truncate', {
               '': variant === 'list',
@@ -92,7 +94,7 @@ const IconCard: React.FC<Props> = ({
               'text-products'
             )}`}
           </Text>
-        )}
+        )} */}
       </div>
 
       {effectActive === true && variant !== 'circle' && (

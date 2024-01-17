@@ -105,6 +105,7 @@ const CategoryBlockIcon: React.FC<CategoriesProps> = ({
     limit: 10,
   })
 
+
   return (
     <div className={cn(className)}>
       <SectionHeader sectionHeading={sectionHeading} />

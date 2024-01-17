@@ -120,8 +120,8 @@
     "slug": "hm-global-desi",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-2.png",
-      "original": "/assets/images/products/products-2/p-2-m.png"
+      "thumbnail": "/assets/images/products/products-2/bottle.webp",
+      "original": "/assets/images/products/products-2/bottle.webp"
     },
     "gallery": [
       {
@@ -234,8 +234,8 @@
     "isNewArrival": true,
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-3.png",
-      "original": "/assets/images/products/products-2/p-3-m.png"
+      "thumbnail": "/assets/images/products/products-2/diary.webp",
+      "original": "/assets/images/products/products-2/diary.webp"
     },
     "gallery": [
       {
@@ -348,8 +348,8 @@
     "slug": "hermes-carlton-london",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-4.png",
-      "original": "/assets/images/products/products-2/p-4-m.png"
+      "thumbnail": "/assets/images/products/products-2/giftset.webp",
+      "original": "/assets/images/products/products-2/giftset.webp"
     },
     "gallery": [
       {
@@ -461,8 +461,8 @@
     "slug": "scuba-stand-collar-topper-jacket",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-5.png",
-      "original": "/assets/images/products/products-2/p-5-m.png"
+      "thumbnail": "/assets/images/products/products-2/lunchbox.webp",
+      "original": "/assets/images/products/products-2/lunchbox.webp"
     },
     "gallery": [
       {
@@ -574,8 +574,8 @@
     "isNewArrival": true,
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-6.png",
-      "original": "/assets/images/products/products-2/p-6-m.png"
+      "thumbnail": "/assets/images/products/products-2/quickdispatch.webp",
+      "original": "/assets/images/products/products-2/quickdispatch.webp"
     },
     "gallery": [
       {
@@ -688,8 +688,8 @@
     "slug": "short-sleeve-shirts-for-men",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-7.png",
-      "original": "/assets/images/products/products-2/p-7-m.png"
+      "thumbnail": "/assets/images/products/products-2/techgadget.webp",
+      "original": "/assets/images/products/products-2/techgadget.webp"
     },
     "gallery": [
       {
@@ -802,8 +802,8 @@
     "isNewArrival": true,
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-8.png",
-      "original": "/assets/images/products/products-2/p-8-m.png"
+      "thumbnail": "/assets/images/products/products-2/trophies.webp",
+      "original": "/assets/images/products/products-2/trophies.webp"
     },
     "gallery": [
       {
@@ -916,8 +916,8 @@
     "isNewArrival": true,
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-9.png",
-      "original": "/assets/images/products/products-2/p-9-m.png"
+      "thumbnail": "/assets/images/products/products-2/tshirt.webp",
+      "original": "/assets/images/products/products-2/tshirt.webp"
     },
     "gallery": [
       {
@@ -1029,8 +1029,8 @@
     "slug": "hm-global-desi",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-10.png",
-      "original": "/assets/images/products/products-2/p-10-m.png"
+      "thumbnail": "/assets/images/products/products-2/welcomekit.webp",
+      "original": "/assets/images/products/products-2/welcomekit.webp"
     },
     "gallery": [
       {
@@ -1143,8 +1143,8 @@
     "isNewArrival": true,
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-11.png",
-      "original": "/assets/images/products/products-2/p-11-m.png"
+      "thumbnail": "/assets/images/products/products-2/bag.webp",
+      "original": "/assets/images/products/products-2/bag.webp"
     },
     "gallery": [
       {
@@ -1257,8 +1257,8 @@
     "slug": "hermes-carlton-london",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-12.png",
-      "original": "/assets/images/products/products-2/p-12-m.png"
+      "thumbnail": "/assets/images/products/products-2/bottle.webp",
+      "original": "/assets/images/products/products-2/bottle.webp"
     },
     "gallery": [
       {
@@ -1370,8 +1370,8 @@
     "slug": "scuba-stand-collar-topper-jacket",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-13.png",
-      "original": "/assets/images/products/products-2/p-13-m.png"
+      "thumbnail": "/assets/images/products/products-2/diary.webp",
+      "original": "/assets/images/products/products-2/diary.webp"
     },
     "gallery": [
       {
@@ -1483,8 +1483,8 @@
     "isNewArrival": true,
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-14.png",
-      "original": "/assets/images/products/products-2/p-14-m.png"
+      "thumbnail": "/assets/images/products/products-2/giftset.webp",
+      "original": "/assets/images/products/products-2/giftset.webp"
     },
     "gallery": [
       {
@@ -1597,8 +1597,8 @@
     "slug": "short-sleeve-shirts-for-men",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-15.png",
-      "original": "/assets/images/products/products-2/p-15-m.png"
+      "thumbnail": "/assets/images/products/products-2/lunchbox.webp",
+      "original": "/assets/images/products/products-2/lunchbox.webp"
     },
     "gallery": [
       {
@@ -1711,8 +1711,8 @@
     "isNewArrival": true,
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-16.png",
-      "original": "/assets/images/products/products-2/p-16-m.png"
+      "thumbnail": "/assets/images/products/products-2/quickdispatch.webp",
+      "original": "/assets/images/products/products-2/quickdispatch.webp"
     },
     "gallery": [
       {
@@ -1825,8 +1825,8 @@
     "isNewArrival": true,
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-17.png",
-      "original": "/assets/images/products/products-2/p-17-m.png"
+      "thumbnail": "/assets/images/products/products-2/techgadget.webp",
+      "original": "/assets/images/products/products-2/techgadget.webp"
     },
     "gallery": [
       {
@@ -1939,8 +1939,8 @@
     "slug": "hermes-carlton-london",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-18.png",
-      "original": "/assets/images/products/products-2/p-18-m.png"
+      "thumbnail": "/assets/images/products/products-2/trophies.webp",
+      "original": "/assets/images/products/products-2/trophies.webp"
     },
     "gallery": [
       {
@@ -2052,8 +2052,8 @@
     "slug": "scuba-stand-collar-topper-jacket",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-19.png",
-      "original": "/assets/images/products/products-2/p-19-m.png"
+      "thumbnail": "/assets/images/products/products-2/tshirt.webp",
+      "original": "/assets/images/products/products-2/tshirt.webp"
     },
     "gallery": [
       {
@@ -2165,8 +2165,8 @@
     "isNewArrival": true,
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-20.png",
-      "original": "/assets/images/products/products-2/p-20-m.png"
+      "thumbnail": "/assets/images/products/products-2/welcomekit.webp",
+      "original": "/assets/images/products/products-2/welcomekit.webp"
     },
     "gallery": [
       {
@@ -2279,8 +2279,8 @@
     "slug": "short-sleeve-shirts-for-men",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-21.png",
-      "original": "/assets/images/products/products-2/p-21-m.png"
+      "thumbnail": "/assets/images/products/products-2/bag.webp",
+      "original": "/assets/images/products/products-2/bag.webp"
     },
     "gallery": [
       {
@@ -2393,8 +2393,8 @@
     "isNewArrival": true,
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/products-2/p-22.png",
-      "original": "/assets/images/products/products-2/p-22-m.png"
+      "thumbnail": "/assets/images/products/products-2/bottle.webp",
+      "original": "/assets/images/products/products-2/bottle.webp"
     },
     "gallery": [
       {

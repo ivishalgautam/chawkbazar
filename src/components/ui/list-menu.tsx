@@ -40,6 +40,7 @@ const ListMenu = ({
             <MegaMenu columns={hasMegaMenu} />
           </div>
           <div className="hidden xl:block">
+            {/* brands */}
             <div className="grid grid-cols-3 gap-3 p-6 2xl:py-8 2xl:px-7 3xl:grid-cols-3 justify-items-center">
               {hasBrands.map((brand: any) => (
                 <Link
@@ -56,6 +57,8 @@ const ListMenu = ({
                 </Link>
               ))}
             </div>
+
+            {/* banners */}
             <div className="grid grid-cols-2 gap-3 p-6 border-t border-gray-300 2xl:py-8 2xl:px-7 ">
               {hasBanners.map((banner: any) => (
                 <Link href={banner.path} key={banner.id}>

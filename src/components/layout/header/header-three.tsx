@@ -40,10 +40,10 @@ export default function Header() {
     <header
       id="siteHeader"
       ref={siteHeaderRef}
-      className="relative z-20 w-full h-16 sm:h-20 lg:h-36 xl:h-40 headerThree"
+      className="relative z-20 w-full h-16 sm:h-20 lg:h-28 headerThree"
     >
-      <div className="fixed z-20 w-full h-16 px-4 text-gray-700 transition duration-200 ease-in-out bg-white innerSticky body-font sm:h-20 lg:h-36 xl:h-40 ltr:pl-4 rtl:pr-4 ltr:md:pl-0 rtl:md:pr-0 ltr:lg:pl-6 rtl:lg:pr-6 ltr:pr-4 ltr:lg:pr-6 rtl:pl-4 rtl:lg:pl-6 md:px-8 2xl:px-16">
-        <div className="flex items-center justify-center mx-auto max-w-[1920px] h-full lg:h-20 xl:h-24 w-full relative before:absolute before:w-screen before:h-px before:bg-[#F1F1F1] before:bottom-0">
+      <div className="fixed z-20 w-full h-16 px-4 text-gray-700 transition duration-200 ease-in-out bg-white innerSticky body-font sm:h-20 lg:h-28 ltr:pl-4 rtl:pr-4 ltr:md:pl-0 rtl:md:pr-0 ltr:lg:pl-6 rtl:lg:pr-6 ltr:pr-4 ltr:lg:pr-6 rtl:pl-4 rtl:lg:pl-6 md:px-8 2xl:px-16">
+        <div className="flex items-center justify-center mx-auto max-w-[1920px] h-full lg:h-20 xl:h-16 w-full relative before:absolute before:w-screen before:h-px before:bg-[#F1F1F1] before:bottom-0">
           <button
             aria-label="Menu"
             className="flex-col items-center justify-center flex-shrink-0 hidden h-full px-5 outline-none menuBtn md:flex lg:hidden 2xl:px-7 focus:outline-none"
@@ -61,7 +61,7 @@ export default function Header() {
               {site_header.pagesMenu?.map((item: any) => (
                 <Link
                   href={item.path}
-                  className="relative flex items-center px-3 lg:px-2.5 py-0 text-sm font-normal xl:text-base text-heading xl:px-6 hover:text-black"
+                  className="relative flex items-center px-3 lg:px-2.5 py-0 text-sm font-normal text-heading xl:px-6 hover:text-black"
                   key={`pages-menu-${item.id}`}
                 >
                   {t(`menu:${item.label}`)}
@@ -90,7 +90,7 @@ export default function Header() {
                 </span>
                 <input
                   id="search"
-                  className="w-full text-sm placeholder-gray-400 bg-transparent rounded-md outline-none focus:border-2 focus:border-gray-600 ltr:pr-4 rtl:pl-4 ltr:pl-14 rtl:pr-14 h-14 text-heading lg:text-base"
+                  className="w-full text-sm placeholder-gray-400 bg-transparent rounded-md outline-none focus:border-2 focus:border-gray-600 ltr:pr-4 rtl:pl-4 ltr:pl-14 rtl:pr-14 h-10 text-heading lg:text-base"
                   placeholder={'Search Anything...'}
                   aria-label="Search"
                   autoComplete="off"
@@ -105,13 +105,13 @@ export default function Header() {
             <div className="flex items-center transition-all wishlistShopping gap-x-7 lg:gap-x-6 xl:gap-x-8 2xl:gap-x-10 ltr:pl-3 rtl:pr-3">
               <div className="flex md:gap-x-4 align-center ">
                 <WishButton />
-                <span className="hidden text-sm font-semibold transition-all duration-100 ease-in-out cursor-pointer lg:font-normal lg:block xl:text-base text-heading">
+                <span className="hidden text-sm font-semibold transition-all duration-100 ease-in-out cursor-pointer lg:font-normal lg:block text-heading">
                   {t('menu:menu-wishlist')}
                 </span>
               </div>
               <div className="hidden lg:flex md:gap-x-4 align-center">
                 <CartButton />
-                <span className="hidden text-sm font-semibold transition-all duration-100 ease-in-out cursor-pointer lg:font-normal lg:block xl:text-base text-heading">
+                <span className="hidden text-sm font-semibold transition-all duration-100 ease-in-out cursor-pointer lg:font-normal lg:block text-heading">
                   {t('menu:menu-shopping')}
                 </span>
               </div>
@@ -119,7 +119,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="items-center hidden lg:flex lg:h-16 headerBottom mx-auto max-w-[1920px]">
+        <div className="items-center hidden lg:flex lg:h-12 headerBottom mx-auto max-w-[1920px]">
           <div className="flex items-center">
             <CategoryMenu
               className="hidden lg:block"
@@ -135,7 +135,7 @@ export default function Header() {
             <AuthMenu
               isAuthorized={isAuthorized}
               href={ROUTES.ACCOUNT}
-              className="flex-shrink-0 hidden text-sm xl:text-base lg:flex focus:outline-none text-heading gap-x-3"
+              className="flex-shrink-0 hidden text-sm lg:flex focus:outline-none text-heading gap-x-3"
               btnProps={{
                 children: (
                   <>

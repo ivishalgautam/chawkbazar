@@ -28,7 +28,6 @@ export default function BannerCard({
   href,
   disableBorderRadius = false,
 }: BannerProps) {
-  console.log({banner});
   const { width } = useSsrCompatible(useWindowSize(), { width: 0, height: 0 });
   const { title, image } = banner;
   const selectedImage = getImage(width, image);
@@ -37,7 +36,7 @@ export default function BannerCard({
       <Link
         href={href}
         className={cn(
-          'h-full group flex justify-center relative overflow-hidden',
+          'h-full w-full group flex justify-center relative overflow-hidden',
           classNameInner
         )}
       >

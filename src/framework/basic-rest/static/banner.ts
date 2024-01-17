@@ -1318,7 +1318,7 @@ export const homeContemporaryHeroSlider = [
       },
       desktop: {
         url: '/assets/images/hero/banner.webp',
-        width: 1300,
+        width: 1600,
         height: 600,
         // height: 900,
       },
@@ -1336,7 +1336,7 @@ export const homeContemporaryHeroSlider = [
       },
       desktop: {
         url: '/assets/images/hero/banner.webp',
-        width: 1300,
+        width: 1600,
         height: 600,
         // height: 900,
       },
@@ -1354,7 +1354,7 @@ export const homeContemporaryHeroSlider = [
       },
       desktop: {
         url: '/assets/images/hero/banner.webp',
-        width: 1300,
+        width: 1600,
         height: 600,
         // height: 900,
       },

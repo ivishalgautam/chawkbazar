@@ -2,10 +2,10 @@
   "data": [
     {
       "id": 1,
-      "name": "Woman",
-      "slug": "woman",
+      "name": "Bags",
+      "slug": "bags",
       "productCount": 20,
-      "icon": "/assets/images/category/icons/woman.png",
+      "icon": "/assets/images/products/new-folder/bag.webp",
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze"],
       "image": {
         "id": 1,
@@ -15,10 +15,10 @@
     },
     {
       "id": 2,
-      "name": "Man",
-      "slug": "man",
+      "name": "Bottle",
+      "slug": "bottle",
       "productCount": 20,
-      "icon": "/assets/images/category/icons/man.png",
+      "icon": "/assets/images/products/new-folder/bottle.webp",
       "tags": ["shovia", "fusion", "elegance", "blaze"],
       "image": {
         "id": 1,
@@ -28,10 +28,10 @@
     },
     {
       "id": 3,
-      "name": "Watch",
-      "slug": "watch",
+      "name": "Diary",
+      "slug": "diary",
       "productCount": 20,
-      "icon": "/assets/images/category/icons/watch.png",
+      "icon": "/assets/images/products/new-folder/diary.webp",
       "tags": ["fusion", "elegance", "blaze"],
       "image": {
         "id": 1,
@@ -41,10 +41,10 @@
     },
     {
       "id": 4,
-      "name": "Kids",
-      "slug": "kids",
+      "name": "Giftset",
+      "slug": "giftset",
       "productCount": 20,
-      "icon": "/assets/images/category/icons/kids.png",
+      "icon": "/assets/images/products/new-folder/giftset.webp",
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze"],
       "image": {
         "id": 1,
@@ -54,10 +54,10 @@
     },
     {
       "id": 5,
-      "name": "Sports",
-      "slug": "sports",
+      "name": "Lunchbox",
+      "slug": "lunchbox",
       "productCount": 20,
-      "icon": "/assets/images/category/icons/sports.png",
+      "icon": "/assets/images/products/new-folder/lunchbox.webp",
       "tags": ["fusion", "elegance", "blaze"],
       "image": {
         "id": 1,
@@ -67,10 +67,10 @@
     },
     {
       "id": 6,
-      "name": "Sunglass",
-      "slug": "sunglass",
+      "name": "Pen",
+      "slug": "pen",
       "productCount": 20,
-      "icon": "/assets/images/category/icons/sunglass.png",
+      "icon": "/assets/images/products/new-folder/pen.webp",
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze"],
       "image": {
         "id": 1,
@@ -80,10 +80,10 @@
     },
     {
       "id": 7,
-      "name": "Bags",
+      "name": "Quick dispatch",
       "slug": "bags",
       "productCount": 20,
-      "icon": "/assets/images/category/icons/bags.png",
+      "icon": "/assets/images/products/new-folder/quickdispatch.webp",
       "tags": ["shovia", "fusion", "elegance", "blaze"],
       "image": {
         "id": 1,
@@ -93,10 +93,49 @@
     },
     {
       "id": 8,
-      "name": "Sneakers",
+      "name": "Tech gadgets",
       "slug": "sneakers",
       "productCount": 20,
-      "icon": "/assets/images/category/icons/sneakers.png",
+      "icon": "/assets/images/products/new-folder/techgadget.webp",
+      "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze", "club"],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/sneakers.jpg",
+        "original": "/assets/images/category/sneakers.jpg"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Trophies",
+      "slug": "trophies",
+      "productCount": 20,
+      "icon": "/assets/images/products/new-folder/trophies.webp",
+      "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze", "club"],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/sneakers.jpg",
+        "original": "/assets/images/category/sneakers.jpg"
+      }
+    },
+    {
+      "id": 10,
+      "name": "T-Shirts",
+      "slug": "t-shirt",
+      "productCount": 20,
+      "icon": "/assets/images/products/new-folder/tshirt.webp",
+      "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze", "club"],
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/sneakers.jpg",
+        "original": "/assets/images/category/sneakers.jpg"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Welcome kit",
+      "slug": "welcome-kit",
+      "productCount": 20,
+      "icon": "/assets/images/products/new-folder/welcomekit.webp",
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze", "club"],
       "image": {
         "id": 1,
