@@ -45,10 +45,7 @@ export default function Home() {
         className="!mb-12 !md:mb-14 !xl:mb-[60px]"
       />
       <Container className="border-b-2 border[#E6E6E6]">
-        <CategoryBlockIcon
-          sectionHeading="text-browse-categories"
-          variant="list"
-        />
+      <CategoryBlockIcon sectionHeading="text-browse-categories" variant="circle" />
         <SaleBannerGrid
           data={bannerDataContemporary}
           className="mb-12 md:mb-14 xl:mb-16"

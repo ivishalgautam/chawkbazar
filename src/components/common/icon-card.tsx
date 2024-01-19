@@ -40,7 +40,7 @@ const IconCard: React.FC<Props> = ({
           'mb-3.5 md:mb-4 lg:mb-5 xl:mb-2 2xl:mb-6 3xl:mb-8 lg:h-24 mx-auto':
             variant === 'default',
           'ltr:mr-auto rtl:ml-auto h-16': variant === 'modern',
-          'bg-gray-200 justify-center rounded-full mb-3.5 md:mb-4 lg:mb-5 w-[105px] md:w-32 lg:w-[140px] xl:w-44 h-[105px] md:h-32 lg:h-[140px] xl:h-44 max-w-full':
+          'justify-center rounded-full mb-3.5 md:mb-4 lg:mb-5':
             variant === 'circle',
           'flex-shrink-0': variant === 'list',
         })}
@@ -55,16 +55,17 @@ const IconCard: React.FC<Props> = ({
             'transform scale-[0.6] lg:scale-75 2xl:scale-85 3xl:scale-90':
               variant === 'circle',
             'mx-auto w-28 rounded-full': variant === 'list',
+            'mx-auto w-full rounded-full': variant === 'circle'
           })}
         />
-        {effectActive === true && variant === 'circle' && (
+        {/* {effectActive === true && variant === 'circle' && (
           <>
             <div className="absolute top-0 left-0 bg-black w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-30 rounded-full" />
             <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center rounded-full">
               <FaLink className="text-white text-base sm:text-xl lg:text-2xl xl:text-3xl transform opacity-0 scale-0 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100" />
             </div>
           </>
-        )}
+        )} */}
       </div>
 
       <div
