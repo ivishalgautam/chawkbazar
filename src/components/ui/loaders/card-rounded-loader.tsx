@@ -8,7 +8,7 @@ const CardRoundedLoader = (props: any) => (
 		viewBox="0 0 197 249"
 		backgroundColor="#f3f3f3"
 		foregroundColor="#ecebeb"
-		className="w-full h-auto"
+		className="w-full h-auto rounded-full"
 		{...props}
 	>
 		<rect x="34" y="230" rx="3" ry="3" width="110" height="10" />
