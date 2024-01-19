@@ -55,7 +55,7 @@ const IconCard: React.FC<Props> = ({
             'transform scale-[0.6] lg:scale-75 2xl:scale-85 3xl:scale-90':
               variant === 'circle',
             'mx-auto w-28 rounded-full': variant === 'list',
-            'mx-auto w-full rounded-full': variant === 'circle'
+            'mx-auto w-full rounded-3xl': variant === 'circle'
           })}
         />
         {/* {effectActive === true && variant === 'circle' && (

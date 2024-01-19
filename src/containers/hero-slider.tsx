@@ -24,7 +24,7 @@ const HeroSlider: React.FC<Props> = ({
   return (
     <div
       className={cn(
-        'relative mb-5 md:mb-8',
+        'relative mb-5 md:mb-8 py-2 lg:py-8 px-4 sm:px-10 md:px-14 lg:px-20',
         {
           'mx-auto max-w-[1920px]': variant === 'fullWidth',
         },
@@ -35,14 +35,14 @@ const HeroSlider: React.FC<Props> = ({
         // autoplay={{
         //   delay: 5000,
         // }}
-        className={`mx-0 ${
+        className={`mx-0 cont-swiper ${
           variant === 'fullWidth' ? 'carousel-full-width' : ''
         }`}
-        paginationPosition="left"
-        prevButtonClasses={`ltr:left-6 rtl:right-6 ltr:md:left-8 rtl:md:right-8 ltr:xl:left-12 rtl:xl:right-12 ltr:2xl:left-16 rtl:2xl:right-16 ${
+        paginationPosition="center"
+        prevButtonClasses={`${
           prevNextButtons === 'none' && 'hidden'
         }`}
-        nextButtonClasses={`ltr:right-6 rtl:left-6 ltr:md:right-8 rtl:md:left-8 ltr:xl:right-12 rtl:xl:left-12 ltr:2xl:right-16 rtl:2xl:left-16 ${
+        nextButtonClasses={`${
           prevNextButtons === 'none' && 'hidden'
         }`}
         buttonGroupClassName={buttonGroupClassName}

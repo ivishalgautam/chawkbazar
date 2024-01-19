@@ -7,9 +7,9 @@ import { useSsrCompatible } from '@utils/use-ssr-compatible';
 const data = {
   title: 'app-heading',
   subTitle: 'app-sub-heading',
-  appImage: '/assets/images/app.png',
-  appImage2: '/assets/images/app2.png',
-  appImage3: '/assets/images/app3.png',
+  appImage: '/assets/images/Mobile-temp.png',
+  appImage2: '/assets/images/Mobile-temp.png',
+  appImage3: '/assets/images/Mobile-temp.png',
   appButtons: [
     {
       id: 1,

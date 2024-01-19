@@ -47,7 +47,7 @@ export default function BannerCard({
           alt={title}
           quality={100}
           className={cn('bg-gray-300 object-cover w-full', {
-            'rounded-md': variant === 'rounded' && !disableBorderRadius,
+            'rounded-2xl': variant === 'rounded' && !disableBorderRadius,
           })}
           priority={true}
         />

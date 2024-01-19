@@ -12,6 +12,9 @@ import LanguageSwitcher from '@components/ui/language-switcher';
 import WishButton from '@components/ui/wish-button';
 import { UserLineIcon } from '@components/icons/UserLineIcon';
 import Link from '@components/ui/link';
+import {TbLocationFilled} from "react-icons/tb"
+import {IoIosArrowDown} from "react-icons/io"
+
 import CategoryMenu from '@components/ui/category-menu';
 const AuthMenu = dynamic(() => import('@components/layout/header/auth-menu'), {
   ssr: false,
@@ -42,8 +45,8 @@ export default function Header() {
       ref={siteHeaderRef}
       className="relative z-20 w-full h-16 sm:h-20 lg:h-28 headerThree"
     >
-      <div className="fixed z-20 w-full h-16 px-4 text-gray-700 transition duration-200 ease-in-out bg-white innerSticky body-font sm:h-20 lg:h-28 ltr:pl-4 rtl:pr-4 ltr:md:pl-0 rtl:md:pr-0 ltr:lg:pl-6 rtl:lg:pr-6 ltr:pr-4 ltr:lg:pr-6 rtl:pl-4 rtl:lg:pl-6 md:px-8 2xl:px-16">
-        <div className="flex items-center justify-center mx-auto max-w-[1920px] h-full lg:h-20 xl:h-16 w-full relative before:absolute before:w-screen before:h-px before:bg-[#F1F1F1] before:bottom-0">
+      <div className="fixed z-20 w-full h-14 px-4 text-gray-700 transition duration-200 ease-in-out bg-white innerSticky body-font lg:h-28 md:px-8 lg:px-14 2xl:px-32">
+        <div className="flex items-center justify-center mx-auto h-14 lg:h-16 xl:h-16 w-full relative before:absolute before:w-screen before:h-px before:bg-[#F1F1F1] before:bottom-0">
           <button
             aria-label="Menu"
             className="flex-col items-center justify-center flex-shrink-0 hidden h-full px-5 outline-none menuBtn md:flex lg:hidden 2xl:px-7 focus:outline-none"
@@ -55,10 +58,10 @@ export default function Header() {
               <span className="bar" />
             </span>
           </button>
-          <div className="flex items-center ltr:2xl:mr-12 rtl:2xl:ml-12 ltr:3xl:mr-20 rtl:3xl:ml-20">
+          <div className="flex items-center justify-between">
             <Logo />
-            <div className="hidden transition-all duration-100 ease-in-out lg:flex ltr:ml-7 rtl:mr-7 ltr:xl:ml-9 rtl:xl:mr-9 ltr:pr-2 rtl:pl-2 headerTopMenu">
-              {site_header.pagesMenu?.map((item: any) => (
+            <div className="hidden transition-all duration-100 ease-in-out lg:flex ml-20 headerTopMenu">
+              {/* {site_header.pagesMenu?.map((item: any) => (
                 <Link
                   href={item.path}
                   className="relative flex items-center px-3 lg:px-2.5 py-0 text-sm font-normal text-heading xl:px-6 hover:text-black"
@@ -71,11 +74,17 @@ export default function Header() {
                     </span>
                   )}
                 </Link>
-              ))}
+              ))} */}
+
+              <div className='flex items-center justify-center gap-3'>
+                <TbLocationFilled />
+                <span>Deliver to</span>
+                <IoIosArrowDown />
+              </div>
             </div>
           </div>
 
-          <div className="relative hidden w-2/6 ltr:mr-auto rtl:ml-auto lg:block">
+          <div className="relative hidden w-2/6 mx-auto lg:block">
             <form
               className="relative w-full overflow-hidden rounded-md bg-borderBottom"
               noValidate
@@ -119,7 +128,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="items-center hidden lg:flex lg:h-12 headerBottom mx-auto max-w-[1920px]">
+        <div className="items-center hidden lg:flex lg:h-12 headerBottom mx-auto border-b border-gray-300">
           <div className="flex items-center">
             <CategoryMenu
               className="hidden lg:block"

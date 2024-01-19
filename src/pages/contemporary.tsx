@@ -39,7 +39,7 @@ export default function Home() {
     <>
       <HeroSlider
         data={banners}
-        variantRounded="default"
+        variantRounded="rounded"
         variant="fullWidth"
         prevNextButtons="none"
         className="!mb-12 !md:mb-14 !xl:mb-[60px]"

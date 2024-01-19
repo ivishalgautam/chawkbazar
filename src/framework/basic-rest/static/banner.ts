@@ -1312,14 +1312,14 @@ export const homeContemporaryHeroSlider = [
     slug: 'winter-collection',
     image: {
       mobile: {
-        url: '/assets/images/hero/banner.webp',
-        width: 900,
-        height: 600,
+        url: '/assets/images/hero/banner-mobile-1.jpg',
+        width: 1400,
+        height: 580,
       },
       desktop: {
-        url: '/assets/images/hero/banner.webp',
+        url: '/assets/images/hero/banner-1.jpg',
         width: 1600,
-        height: 600,
+        height: 430,
         // height: 900,
       },
     },
@@ -1330,14 +1330,14 @@ export const homeContemporaryHeroSlider = [
     slug: 'winter-collection',
     image: {
       mobile: {
-        url: '/assets/images/hero/banner.webp',
-        width: 900,
-        height: 540,
+        url: '/assets/images/hero/banner-mobile-2.jpg',
+        width: 1400,
+        height: 580,
       },
       desktop: {
-        url: '/assets/images/hero/banner.webp',
+        url: '/assets/images/hero/banner-2.jpg',
         width: 1600,
-        height: 600,
+        height: 430,
         // height: 900,
       },
     },
@@ -1348,14 +1348,14 @@ export const homeContemporaryHeroSlider = [
     slug: 'winter-collection',
     image: {
       mobile: {
-        url: '/assets/images/hero/banner.webp',
+        url: '/assets/images/hero/banner-3.jpg',
         width: 900,
         height: 540,
       },
       desktop: {
-        url: '/assets/images/hero/banner.webp',
+        url: '/assets/images/hero/banner-3.jpg',
         width: 1600,
-        height: 600,
+        height: 431,
         // height: 900,
       },
     },
@@ -1374,7 +1374,7 @@ export const bannerDataContemporary = [
         height: 360,
       },
       desktop: {
-        url: '/assets/images/banner/masonry/banner-12.png',
+        url: '/assets/images/banner/masonry/banner-14.jpg',
         width: 885,
         height: 430,
       },
@@ -1392,7 +1392,7 @@ export const bannerDataContemporary = [
         height: 360,
       },
       desktop: {
-        url: '/assets/images/banner/masonry/banner-13.png',
+        url: '/assets/images/banner/masonry/banner-15.jpg',
         width: 885,
         height: 430,
       },
