@@ -88,6 +88,8 @@ const CategoryBlock: React.FC<CategoriesProps> = ({
     demoVariant: demoVariant || undefined,
   });
 
+  console.log({data});
+
   return (
     <div className={className}>
       <SectionHeader sectionHeading={sectionHeading} />

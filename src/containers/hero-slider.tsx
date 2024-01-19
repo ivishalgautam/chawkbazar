@@ -32,9 +32,9 @@ const HeroSlider: React.FC<Props> = ({
       )}
     >
       <Carousel
-        // autoplay={{
-        //   delay: 5000,
-        // }}
+        autoplay={{
+          delay: 5000,
+        }}
         className={`mx-0 cont-swiper ${
           variant === 'fullWidth' ? 'carousel-full-width' : ''
         }`}

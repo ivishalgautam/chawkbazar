@@ -14,6 +14,8 @@ import CategoryBlockIcon from '@containers/category-block-icon';
 import { ROUTES } from '@utils/routes';
 import { homeSevenBanner as banner } from '@framework/static/banner';
 import { collectionContemporaryData as collection } from '@framework/static/collection';
+import { promotionBannerTwo as promotionBanners } from '@framework/static/banner';
+
 import NewArrivalsProductFeedWithTabs from '@components/product/feeds/new-arrivals-product-feed-with-tabs';
 import BannerCard from '@components/common/banner-card';
 import CollectionBlock from '@containers/collection-block';
@@ -32,6 +34,9 @@ import {
 } from '@framework/static/banner';
 import BrandTimerBlock from '@containers/brand-timer-block';
 import dynamic from 'next/dynamic';
+import CategoryBlock from '@containers/category-block';
+import FlashSaleBlock from '@components/product/feeds/flash-sale-product-feed';
+import BannerCarouselBlock from '@containers/banner-carousel-block';
 const DownloadApps = dynamic(() => import('@components/common/download-apps'));
 
 export default function Home() {
@@ -45,7 +50,9 @@ export default function Home() {
         className="!mb-12 !md:mb-14 !xl:mb-[60px]"
       />
       <Container className="border-b-2 border[#E6E6E6]">
-      <CategoryBlockIcon sectionHeading="text-browse-categories" variant="circle" />
+      {/* <CategoryBlockIcon sectionHeading="text-browse-categories" variant="circle" /> */}
+      <CategoryBlock sectionHeading="text-shop-by-category" />
+
         <SaleBannerGrid
           data={bannerDataContemporary}
           className="mb-12 md:mb-14 xl:mb-16"
@@ -55,18 +62,19 @@ export default function Home() {
           sectionHeading="text-top-brands-deal"
           className="mb-12 md:mb-14 xl:mb-16"
         />
-        <ProductsFeatured
+        {/* <ProductsFeatured
           limit={3}
           variant="modern"
           sectionHeading="text-featured-products"
-        />
-        <BannerCard
+        /> */}
+        {/* <BannerCard
           key={`banner--key${banner.id}`}
           banner={contemporaryBanner1}
           href={`${ROUTES.COLLECTIONS}/${banner.slug}`}
           className="mb-12 md:mb-14 xl:mb-16 pb-0.5 md:pb-0 lg:pb-1 xl:pb-0 md:-mt-2.5"
-        />
-        <TrendingProductFeedWithTabs />
+        /> */}
+        {/* <TrendingProductFeedWithTabs /> */}
+        <BannerCarouselBlock bannerData={promotionBanners} />
         <BannerCard
           key={`banner--key1${banner.id}`}
           banner={contemporaryBanner2}
@@ -74,21 +82,24 @@ export default function Home() {
           className="mb-12 md:mb-14 xl:mb-16 pb-0.5 md:pb-0 lg:pb-1 xl:pb-0 md:-mt-2.5"
         />
 
-        <CollectionBlock
+
+
+
+        {/* <CollectionBlock
           variant="trendy"
           data={collection}
           sectionHeading="text-trending-collection"
-        />
+        /> */}
         <RecentProductFeed />
         <DownloadApps
           className="mb-12 bg-app-pattern md:mb-14 xl:mb-16"
           variant="modern"
         />
-        <TestimonialCarousel
+        {/* <TestimonialCarousel
           sectionHeading="text-testimonial"
           type="list"
           className="relative mb-12 md:mb-14 xl:mb-16"
-        />
+        /> */}
         <Instagram className="mb-4 md:mb-5 xl:mb-16" variant="rounded" />
         <Subscription className="bg-opacity-0 px-5 sm:px-16 xl:px-0 mb-12 md:mb-14 xl:mb-16 lg:mt-16 mt-12 !py-0 !md:py-0 !lg:py-0" />
       </Container>
