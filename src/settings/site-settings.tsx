@@ -43,7 +43,7 @@ export const siteSettings = {
     address: '',
   },
   logo: {
-    url: '/assets/images/logo.png',
+    url: '/assets/images/logo.webp',
     alt: 'ChawkBazar',
     href: '/',
     width: 95,
