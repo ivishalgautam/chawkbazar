@@ -45,7 +45,7 @@ export const siteSettings = {
   logo: {
     url: '/assets/images/logo.webp',
     alt: 'ChawkBazar',
-    href: '/',
+    href: '/contemporary',
     width: 95,
     height: 40,
   },
@@ -1626,7 +1626,7 @@ export const siteSettings = {
         id: 3,
         path: '/',
         label: 'Diary',
-        icon: <AiOutlineBook  size={iconSize}/>,
+        icon: <AiOutlineBook size={iconSize} />,
         columns: [
           {
             id: 1,

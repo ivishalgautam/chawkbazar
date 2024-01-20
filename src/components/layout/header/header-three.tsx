@@ -47,7 +47,7 @@ export default function Header() {
       className="relative z-20 w-full h-16 sm:h-20 lg:h-28 headerThree"
     >
       <div className="fixed z-20 w-full h-14 px-4 text-gray-700 transition duration-200 ease-in-out bg-white innerSticky body-font lg:h-28 md:px-8 lg:px-14 2xl:px-32">
-        <div className="flex items-center justify-center mx-auto h-14 lg:h-16 xl:h-16 w-full relative before:absolute before:w-screen before:h-px before:bg-[#F1F1F1] before:bottom-0">
+        <div className="flex items-center justify-between mx-auto h-14 lg:h-16 xl:h-16 w-full relative before:absolute before:w-screen before:h-px before:bg-[#F1F1F1] before:bottom-0">
           <button
             aria-label="Menu"
             className="flex-col items-center justify-center flex-shrink-0 hidden h-full px-5 outline-none menuBtn md:flex lg:hidden 2xl:px-7 focus:outline-none"
@@ -61,22 +61,7 @@ export default function Header() {
           </button>
           <div className="flex items-center justify-between">
             <Logo />
-            <div className="hidden transition-all duration-100 ease-in-out lg:flex ml-20 headerTopMenu">
-              {/* {site_header.pagesMenu?.map((item: any) => (
-                <Link
-                  href={item.path}
-                  className="relative flex items-center px-3 lg:px-2.5 py-0 text-sm font-normal text-heading xl:px-6 hover:text-black"
-                  key={`pages-menu-${item.id}`}
-                >
-                  {t(`menu:${item.label}`)}
-                  {item.icon && (
-                    <span className="ltr:ml-1.5 rtl:mr-1.5 ltr:xl:ml-2 rtl:xl:mr-2">
-                      {item.icon}
-                    </span>
-                  )}
-                </Link>
-              ))} */}
-
+            <div className="hidden transition-all duration-100 ease-in-out lg:flex ml-4 md:ml-10 lg:ml-8 xl:ml-14 headerTopMenu">
               <div className='flex items-center justify-center gap-3'>
                 <TbLocationFilled />
                 <span>Deliver to</span>

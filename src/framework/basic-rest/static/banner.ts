@@ -442,16 +442,16 @@ export const promotionBanner = [
 export const promotionBannerTwo = [
   {
     id: 1,
-    title: "Men's Collection",
-    slug: "men's-collection",
+    title: "T-shirt's Collection",
+    slug: "tshirt's-collection",
     image: {
       mobile: {
-        url: '/assets/images/banner/small/banner-mobile-1.jpg',
+        url: '/assets/images/banner/small/corporate-tshirt.jpg',
         width: 450,
         height: 150,
       },
       desktop: {
-        url: '/assets/images/banner/small/banner-1.jpg',
+        url: '/assets/images/banner/small/corporate-tshirt.jpg',
         width: 580,
         height: 360,
       },
@@ -459,16 +459,16 @@ export const promotionBannerTwo = [
   },
   {
     id: 2,
-    title: "Women's Collection",
-    slug: "women's-collection",
+    title: "Gift's Collection",
+    slug: "gift's-collection",
     image: {
       mobile: {
-        url: '/assets/images/banner/small/banner-mobile-2.jpg',
+        url: '/assets/images/banner/small/gft-sets.jpg',
         width: 450,
         height: 150,
       },
       desktop: {
-        url: '/assets/images/banner/small/banner-2.jpg',
+        url: '/assets/images/banner/small/gft-sets.jpg',
         width: 580,
         height: 360,
       },
@@ -476,16 +476,50 @@ export const promotionBannerTwo = [
   },
   {
     id: 3,
-    title: "Kid's Collection",
-    slug: "kid's-collection",
+    title: "Home Appliances",
+    slug: "home-appliances-collection",
     image: {
       mobile: {
-        url: '/assets/images/banner/small/banner-mobile-3.jpg',
+        url: '/assets/images/banner/small/home-appliances.jpg',
         width: 450,
         height: 150,
       },
       desktop: {
-        url: '/assets/images/banner/small/banner-3.jpg',
+        url: '/assets/images/banner/small/home-appliances.jpg',
+        width: 580,
+        height: 360,
+      },
+    },
+  },
+  {
+    id: 4,
+    title: "Tech Gadgets",
+    slug: "tech-gadgets-collection",
+    image: {
+      mobile: {
+        url: '/assets/images/banner/small/tech-gadgets.jpg',
+        width: 450,
+        height: 150,
+      },
+      desktop: {
+        url: '/assets/images/banner/small/tech-gadgets.jpg',
+        width: 580,
+        height: 360,
+      },
+    },
+  },
+  {
+    id: 5,
+    title: "Trophies And Awards",
+    slug: "trophies-and-awards-collection",
+    image: {
+      mobile: {
+        url: '/assets/images/banner/small/trophies-and-awards.jpg',
+        width: 450,
+        height: 150,
+      },
+      desktop: {
+        url: '/assets/images/banner/small/trophies-and-awards.jpg',
         width: 580,
         height: 360,
       },
