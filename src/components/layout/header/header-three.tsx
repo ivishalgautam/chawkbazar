@@ -12,8 +12,9 @@ import LanguageSwitcher from '@components/ui/language-switcher';
 import WishButton from '@components/ui/wish-button';
 import { UserLineIcon } from '@components/icons/UserLineIcon';
 import Link from '@components/ui/link';
-import {TbLocationFilled} from "react-icons/tb"
-import {IoIosArrowDown} from "react-icons/io"
+import { TbLocationFilled } from "react-icons/tb"
+import { IoIosArrowDown } from "react-icons/io"
+import { SlLocationPin } from "react-icons/sl"
 
 import CategoryMenu from '@components/ui/category-menu';
 const AuthMenu = dynamic(() => import('@components/layout/header/auth-menu'), {
@@ -85,6 +86,7 @@ export default function Header() {
           </div>
 
           <div className="relative hidden w-2/6 mx-auto lg:block">
+            {/* search bar */}
             <form
               className="relative w-full overflow-hidden rounded-md bg-borderBottom"
               noValidate
@@ -107,11 +109,18 @@ export default function Header() {
               </label>
             </form>
           </div>
-          <div className="flex flex-shrink-0 transition-all duration-200 ease-in-out transform ltr:ml-auto rtl:mr-auto ltr:mr-3 rtl:ml-3 ltr:lg:mr-5 rtl:lg:ml-5 ltr:xl:mr-8 rtl:xl:ml-8 ltr:2xl:mr-10 rtl:2xl:ml-10 languageSwitcher lg:hidden">
+
+          {/* <div className="flex flex-shrink-0 transition-all duration-200 ease-in-out transform languageSwitcher lg:hidden">
             <LanguageSwitcher />
-          </div>
+          </div> */}
           <div className="flex items-center justify-end flex-shrink-0">
             <div className="flex items-center transition-all wishlistShopping gap-x-7 lg:gap-x-6 xl:gap-x-8 2xl:gap-x-10 ltr:pl-3 rtl:pr-3">
+              <div className="flex md:gap-x-2 align-center">
+                <SlLocationPin size={20} />
+                <span className="hidden text-sm font-semibold transition-all duration-100 ease-in-out cursor-pointer lg:font-normal lg:block text-heading">
+                  Track Order
+                </span>
+              </div>
               <div className="flex md:gap-x-4 align-center ">
                 <WishButton />
                 <span className="hidden text-sm font-semibold transition-all duration-100 ease-in-out cursor-pointer lg:font-normal lg:block text-heading">
@@ -128,7 +137,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="items-center hidden lg:flex lg:h-12 headerBottom mx-auto border-b border-gray-300">
+        <div className="items-center hidden lg:flex lg:h-12 headerBottom mx-auto">
           <div className="flex items-center">
             <CategoryMenu
               className="hidden lg:block"
@@ -155,7 +164,7 @@ export default function Header() {
                 onClick: handleLogin,
               }}
             />
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
           </div>
         </div>
       </div>

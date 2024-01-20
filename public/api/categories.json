@@ -9,8 +9,8 @@
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/woman.jpg",
-        "original": "/assets/images/category/woman.jpg"
+        "thumbnail": "/assets/images/products/new-folder/bag.webp",
+        "original": "/assets/images/products/new-folder/bag.webp"
       }
     },
     {
@@ -22,8 +22,8 @@
       "tags": ["shovia", "fusion", "elegance", "blaze"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/man.jpg",
-        "original": "/assets/images/category/man.jpg"
+        "thumbnail": "/assets/images/products/new-folder/bottle.webp",
+        "original": "/assets/images/products/new-folder/bottle.webp"
       }
     },
     {
@@ -35,8 +35,8 @@
       "tags": ["fusion", "elegance", "blaze"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/watch.jpg",
-        "original": "/assets/images/category/watch.jpg"
+        "thumbnail": "/assets/images/products/new-folder/diary.webp",
+        "original": "/assets/images/products/new-folder/diary.webp"
       }
     },
     {
@@ -48,8 +48,8 @@
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/kid.jpg",
-        "original": "/assets/images/category/kid.jpg"
+        "thumbnail": "/assets/images/products/new-folder/giftset.webp",
+        "original": "/assets/images/products/new-folder/giftset.webp"
       }
     },
     {
@@ -61,8 +61,8 @@
       "tags": ["fusion", "elegance", "blaze"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/sports.jpg",
-        "original": "/assets/images/category/sports.jpg"
+        "thumbnail": "/assets/images/products/new-folder/lunchbox.webp",
+        "original": "/assets/images/products/new-folder/lunchbox.webp"
       }
     },
     {
@@ -74,8 +74,8 @@
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/sunglass.jpg",
-        "original": "/assets/images/category/sunglass.jpg"
+        "thumbnail": "/assets/images/products/new-folder/pen.webp",
+        "original": "/assets/images/products/new-folder/pen.webp"
       }
     },
     {
@@ -87,8 +87,8 @@
       "tags": ["shovia", "fusion", "elegance", "blaze"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/bags.jpg",
-        "original": "/assets/images/category/bags.jpg"
+        "thumbnail": "/assets/images/products/new-folder/quickdispatch.webp",
+        "original": "/assets/images/products/new-folder/quickdispatch.webp"
       }
     },
     {
@@ -100,8 +100,8 @@
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze", "club"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/sneakers.jpg",
-        "original": "/assets/images/category/sneakers.jpg"
+        "thumbnail": "/assets/images/products/new-folder/techgadget.webp",
+        "original": "/assets/images/products/new-folder/techgadget.webp"
       }
     },
     {
@@ -113,8 +113,8 @@
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze", "club"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/sneakers.jpg",
-        "original": "/assets/images/category/sneakers.jpg"
+        "thumbnail": "/assets/images/products/new-folder/trophies.webp",
+        "original": "/assets/images/products/new-folder/trophies.webp"
       }
     },
     {
@@ -126,8 +126,8 @@
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze", "club"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/sneakers.jpg",
-        "original": "/assets/images/category/sneakers.jpg"
+        "thumbnail": "/assets/images/products/new-folder/tshirt.webp",
+        "original": "/assets/images/products/new-folder/tshirt.webp"
       }
     },
     {
@@ -139,8 +139,8 @@
       "tags": ["shovia", "fusion", "elegance", "fashadil", "blaze", "club"],
       "image": {
         "id": 1,
-        "thumbnail": "/assets/images/category/sneakers.jpg",
-        "original": "/assets/images/category/sneakers.jpg"
+        "thumbnail": "/assets/images/products/new-folder/welcomekit.webp",
+        "original": "/assets/images/products/new-folder/welcomekit.webp"
       }
     }
   ]

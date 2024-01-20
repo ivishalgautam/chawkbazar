@@ -37,22 +37,22 @@ import dynamic from 'next/dynamic';
 import CategoryBlock from '@containers/category-block';
 import FlashSaleBlock from '@components/product/feeds/flash-sale-product-feed';
 import BannerCarouselBlock from '@containers/banner-carousel-block';
+import cn from "classnames"
 const DownloadApps = dynamic(() => import('@components/common/download-apps'));
 
 export default function Home() {
   return (
     <>
-      <HeroSlider
-        data={banners}
-        variantRounded="rounded"
-        variant="fullWidth"
-        prevNextButtons="none"
-        className="!mb-12 !md:mb-14 !xl:mb-[60px]"
-      />
-      <Container className="border-b-2 border[#E6E6E6]">
-      {/* <CategoryBlockIcon sectionHeading="text-browse-categories" variant="circle" /> */}
-      <CategoryBlock sectionHeading="text-shop-by-category" />
-
+      <div className={cn("border-b-2 px-4 md:px-8 lg:px-14 2xl:px-32 border-[#E6E6E6]")}>
+        <HeroSlider
+          data={banners}
+          variantRounded="rounded"
+          variant="fullWidth"
+          prevNextButtons="none"
+          className="!xl:mb-[60px]"
+        />
+        {/* <CategoryBlockIcon sectionHeading="text-browse-categories" variant="circle" /> */}
+        <CategoryBlock sectionHeading="text-shop-by-category" />
         <SaleBannerGrid
           data={bannerDataContemporary}
           className="mb-12 md:mb-14 xl:mb-16"
@@ -81,10 +81,6 @@ export default function Home() {
           href={`${ROUTES.COLLECTIONS}/${banner.slug}`}
           className="mb-12 md:mb-14 xl:mb-16 pb-0.5 md:pb-0 lg:pb-1 xl:pb-0 md:-mt-2.5"
         />
-
-
-
-
         {/* <CollectionBlock
           variant="trendy"
           data={collection}
@@ -102,7 +98,7 @@ export default function Home() {
         /> */}
         <Instagram className="mb-4 md:mb-5 xl:mb-16" variant="rounded" />
         <Subscription className="bg-opacity-0 px-5 sm:px-16 xl:px-0 mb-12 md:mb-14 xl:mb-16 lg:mt-16 mt-12 !py-0 !md:py-0 !lg:py-0" />
-      </Container>
+      </div>
     </>
   );
 }

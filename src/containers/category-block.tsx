@@ -88,7 +88,7 @@ const CategoryBlock: React.FC<CategoriesProps> = ({
     demoVariant: demoVariant || undefined,
   });
 
-  console.log({data});
+  console.log({ data });
 
   return (
     <div className={className}>
@@ -99,9 +99,9 @@ const CategoryBlock: React.FC<CategoriesProps> = ({
         <Carousel
           breakpoints={type === 'rounded' ? breakpoints : breakpointsCircle}
           buttonGroupClassName="-mt-4 md:-mt-5 xl:-mt-7"
-          autoplay={{
-            delay: 3000,
-          }}
+        // autoplay={{
+        //   delay: 3000,
+        // }}
         >
           {isLoading && !data
             ? Array.from({ length: roundedItemCount || 10 }).map((_, idx) => {
