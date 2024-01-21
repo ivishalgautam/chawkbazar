@@ -213,7 +213,7 @@ export const footerContemporary = {
       id: 0,
       isCompanyIntroduction: true,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+        'At BuyTohfa.com, we curate exquisite corporate gifts, transforming moments into memorable connections. Our bespoke offerings blend sophistication and thoughtfulness, making every gesture a lasting token of appreciation and goodwill.',
 
       lists: [
         {

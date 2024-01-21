@@ -37,7 +37,7 @@ const ListMenu = ({
       {(hasMegaMenu || hasBrands || hasBanners) && (
         <div className="absolute flex bg-white categoryMegaMenu shadow-header w-[630px] xl:w-[1000px] 2xl:w-[1200px] ltr:left-full rtl:right-full">
           <div className="flex-shrink-0">
-            <MegaMenu columns={hasMegaMenu} />
+            <MegaMenu columns={hasMegaMenu} type="allCategory" />
           </div>
           <div className="hidden xl:block">
             {/* brands */}

@@ -12,10 +12,11 @@ type MegaMenuProps = {
   columns: {
     id: number | string;
     columnItems: MenuItem[];
+    type: string;
   }[];
 };
 
-const MegaMenu: React.FC<MegaMenuProps> = ({ columns }) => {
+const MegaMenu: React.FC<MegaMenuProps> = ({ columns, type }) => {
   const { t } = useTranslation('menu');
   return (
     <div className="absolute bg-gray-200 megaMenu shadow-header ltr:-left-28 rtl:-right-28 ltr:xl:left-0 rtl:xl:right-0">
@@ -27,14 +28,14 @@ const MegaMenu: React.FC<MegaMenuProps> = ({ columns }) => {
           >
             {column?.columnItems?.map((columnItem) => (
               <React.Fragment key={columnItem.id}>
-                <li className="mb-1.5">
+                {type !== "allCategory" && <li className="mb-1.5">
                   <Link
                     href={columnItem.path}
                     className="block text-sm py-0.5 text-heading font-semibold px-5 xl:px-8 2xl:px-10 hover:text-heading hover:bg-gray-300"
                   >
                     {t(columnItem.label)}
                   </Link>
-                </li>
+                </li>}
                 {columnItem?.columnItemItems?.map((item: any) => (
                   <li
                     key={item.id}
